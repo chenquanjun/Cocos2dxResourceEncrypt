@@ -4,4 +4,4 @@
 
 engine目录的文件复制到引擎目录
 
-progjuect目录的文件复制到项目目录
+project目录的文件复制到项目目录
