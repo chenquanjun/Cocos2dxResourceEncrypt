@@ -96,6 +96,10 @@ def compileScriptFile(compileFileName, srcName, compileMode):
         print Exception,":",e
 
 def packRes():
+    if not os.path.exists('PackRes.php'):
+        print 'Error: PackRes.php not exist, pack res stop!'
+        return
+
     removeDir(APP_ROOT + "/packres/") #--->É¾³ı¾É¼ÓÃÜ×ÊÔ´
 
     scriptName = QUICK_BIN_DIR + "/lib/pack_files.php"
